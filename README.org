@@ -130,9 +130,9 @@
 * Searching / Finding
 | Shortcut | Binding                             |
 |----------+-------------------------------------|
-| #        | evil-search-word-backward           |
-| *        | evil-search-word-forward            |
-| \/       | evil-search-forward                 |
+| ```#```  | evil-search-word-backward           |
+| ```*```  | evil-search-word-forward            |
+| ```/```  | evil-search-forward                 |
 | ?        | evil-search-backward                |
 | N        | evil-search-previous                |
 | n        | evil-search-next                    |

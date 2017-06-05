@@ -1,17 +1,17 @@
-- [General](#org43859d9)
-- [Prefix commands](#orgde6da42)
-- [Selection](#orge50bb4a)
-- [Navigation](#org485c73f)
-- [Searching / Finding](#org906a37c)
-- [Editing](#orgd875ad0)
-- [Navigation](#org688c3d3)
-- [Window management](#orge3bbd03)
-- [Bindings starting with g](#org03f12b6)
-- [Macro](#org9b7745b)
-- [Other](#org3f6f968)
+- [General](#org35e1c55)
+- [Prefix commands](#org6a967e5)
+- [Selection](#org89b2db7)
+- [Navigation](#orgb674fd7)
+- [Searching / Finding](#org0167b20)
+- [Editing](#orgea56234)
+- [Navigation](#orge04800c)
+- [Window management](#org997b184)
+- [Bindings starting with g](#orgeeca0e7)
+- [Macro](#org0ce2fee)
+- [Other](#orga407997)
 
 
-<a id="org43859d9"></a>
+<a id="org35e1c55"></a>
 
 # General
 
@@ -34,7 +34,7 @@
 | Z Z      | evil-save-modified-and-close |
 
 
-<a id="orgde6da42"></a>
+<a id="org6a967e5"></a>
 
 # Prefix commands
 
@@ -48,7 +48,7 @@
 | ]        | Prefix Command |
 
 
-<a id="orge50bb4a"></a>
+<a id="org89b2db7"></a>
 
 # Selection
 
@@ -60,7 +60,7 @@
 | C-v      | evil-visual-block   | Blockwise selection         |
 
 
-<a id="org485c73f"></a>
+<a id="orgb674fd7"></a>
 
 # Navigation
 
@@ -147,34 +147,34 @@
 | ] }      | evil-next-close-brace                         |                                                                              |
 
 
-<a id="org906a37c"></a>
+<a id="org0167b20"></a>
 
 # Searching / Finding
 
-| Shortcut | Binding                             |
-|-------- |----------------------------------- |
-| #        | evil-search-word-backward           |
-| \*       | evil-search-word-forward            |
-| \\/      | evil-search-forward                 |
-| ?        | evil-search-backward                |
-| N        | evil-search-previous                |
-| n        | evil-search-next                    |
-| g #      | evil-search-unbounded-word-backward |
-| g \*     | evil-search-unbounded-word-forward  |
-| g N      | evil-previous-match                 |
-| g n      | evil-next-match                     |
-| ,        | evil-repeat-find-char-reverse       |
-| ;        | evil-repeat-find-char               |
-| F        | evil-find-char-backward             |
-| T        | evil-find-char-to-backward          |
-| f        | evil-find-char                      |
-| t        | evil-find-char-to                   |
-| g f      | find-file-at-point                  |
-| g F      | evil-find-file-at-point-with-line   |
-| g C-]    | find-tag                            |
+| Shortcut       | Binding                             |
+|-------------- |----------------------------------- |
+| \`\`\`#\`\`\`  | evil-search-word-backward           |
+| \`\`\`\*\`\`\` | evil-search-word-forward            |
+| \`\`\`/\`\`\`  | evil-search-forward                 |
+| ?              | evil-search-backward                |
+| N              | evil-search-previous                |
+| n              | evil-search-next                    |
+| g #            | evil-search-unbounded-word-backward |
+| g \*           | evil-search-unbounded-word-forward  |
+| g N            | evil-previous-match                 |
+| g n            | evil-next-match                     |
+| ,              | evil-repeat-find-char-reverse       |
+| ;              | evil-repeat-find-char               |
+| F              | evil-find-char-backward             |
+| T              | evil-find-char-to-backward          |
+| f              | evil-find-char                      |
+| t              | evil-find-char-to                   |
+| g f            | find-file-at-point                  |
+| g F            | evil-find-file-at-point-with-line   |
+| g C-]          | find-tag                            |
 
 
-<a id="orgd875ad0"></a>
+<a id="orgea56234"></a>
 
 # Editing
 
@@ -206,7 +206,7 @@
 | g w      | evil-fill                 | Fill text.                                                                                                                                                                                                          |
 
 
-<a id="org688c3d3"></a>
+<a id="orge04800c"></a>
 
 # Navigation
 
@@ -222,7 +222,7 @@
 | <down-mouse-1> | evil-mouse-drag-region             |             |
 
 
-<a id="orge3bbd03"></a>
+<a id="org997b184"></a>
 
 # Window management
 
@@ -277,7 +277,7 @@
 | C-w C-S-l  | evil-window-move-far-right   |                                                                                                                                                                                                                                                |
 
 
-<a id="org03f12b6"></a>
+<a id="orgeeca0e7"></a>
 
 # Bindings starting with g
 
@@ -287,7 +287,7 @@
 | g a      | what-cursor-position |             |
 
 
-<a id="org9b7745b"></a>
+<a id="org0ce2fee"></a>
 
 # Macro
 
@@ -303,7 +303,7 @@
 | z <right>  | Keyboard Macro     |
 
 
-<a id="org3f6f968"></a>
+<a id="orga407997"></a>
 
 # Other
 
