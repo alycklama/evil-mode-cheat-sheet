@@ -128,28 +128,28 @@
 | ] }      | evil-next-close-brace                         |                                                                              |
 
 * Searching / Finding
-| Shortcut     | Binding                             |
-|--------------+-------------------------------------|
-| <pre>#</pre> | evil-search-word-backward           |
-| <pre>*</pre> | evil-search-word-forward            |
-| <pre>/</pre> | evil-search-forward                 |
-| ?            | evil-search-backward                |
-| N            | evil-search-previous                |
-| n            | evil-search-next                    |
-| g #          | evil-search-unbounded-word-backward |
-| g *          | evil-search-unbounded-word-forward  |
-| g N          | evil-previous-match                 |
-| g n          | evil-next-match                     |
-|--------------+-------------------------------------|
-| ,            | evil-repeat-find-char-reverse       |
-| ;            | evil-repeat-find-char               |
-| F            | evil-find-char-backward             |
-| T            | evil-find-char-to-backward          |
-| f            | evil-find-char                      |
-| t            | evil-find-char-to                   |
-| g f          | find-file-at-point                  |
-| g F          | evil-find-file-at-point-with-line   |
-| g C-]        | find-tag                            |
+| Shortcut | Binding                             |
+|----------+-------------------------------------|
+| `#`      | evil-search-word-backward           |
+| `*`      | evil-search-word-forward            |
+| `/`      | evil-search-forward                 |
+| ?        | evil-search-backward                |
+| N        | evil-search-previous                |
+| n        | evil-search-next                    |
+| g #      | evil-search-unbounded-word-backward |
+| g *      | evil-search-unbounded-word-forward  |
+| g N      | evil-previous-match                 |
+| g n      | evil-next-match                     |
+|----------+-------------------------------------|
+| ,        | evil-repeat-find-char-reverse       |
+| ;        | evil-repeat-find-char               |
+| F        | evil-find-char-backward             |
+| T        | evil-find-char-to-backward          |
+| f        | evil-find-char                      |
+| t        | evil-find-char-to                   |
+| g f      | find-file-at-point                  |
+| g F      | evil-find-file-at-point-with-line   |
+| g C-]    | find-tag                            |
 
 * Editing
 | Shortcut | Binding                   |                                                                                                                                                                                                                     |
