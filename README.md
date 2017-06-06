@@ -1,25 +1,25 @@
-- [Intro](#orgc774f25)
-- [General](#orgf7ee813)
-- [Prefix commands](#org0f55f9b)
-- [Selection](#org9968e37)
-- [Navigation](#org5c3f1ed)
-- [Searching / Finding](#org28868d4)
-- [Editing](#orgb0200dd)
-- [Navigation](#org918cfa8)
-- [Window management](#orgaeac62e)
-- [Bindings starting with g](#org899cb8b)
-- [Macro](#orgdb2ce51)
-- [Other](#org9a671df)
+- [Intro](#org9d4aee1)
+- [General](#org94adcaf)
+- [Prefix commands](#org8dc12b9)
+- [Selection](#org6496dd8)
+- [Navigation](#orgf8cedd8)
+- [Searching / Finding](#org529a209)
+- [Editing](#org10231a5)
+- [Navigation](#orge602652)
+- [Window management](#org06cf066)
+- [Bindings starting with g](#orge455a3f)
+- [Macro](#orgb852734)
+- [Other](#org9d7da6f)
 
 
-<a id="orgc774f25"></a>
+<a id="org9d4aee1"></a>
 
 # Intro
 
-This is a cheat-sheet evil-mode. There are so many key-bindings that I took the opportunity to create a handy cheat-sheet, to support my own learning process.
+This is a cheat-sheet for evil-mode. There are so many key-bindings that I took the opportunity to create a handy cheat-sheet, supporting my own learning process. If anything is missing or wrong, pull requests are more than welcome!
 
 
-<a id="orgf7ee813"></a>
+<a id="org94adcaf"></a>
 
 # General
 
@@ -42,7 +42,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | Z Z      | evil-save-modified-and-close |
 
 
-<a id="org0f55f9b"></a>
+<a id="org8dc12b9"></a>
 
 # Prefix commands
 
@@ -56,7 +56,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | ]        | Prefix Command |
 
 
-<a id="org9968e37"></a>
+<a id="org6496dd8"></a>
 
 # Selection
 
@@ -68,7 +68,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | C-v      | evil-visual-block   | Blockwise selection         |
 
 
-<a id="org5c3f1ed"></a>
+<a id="orgf8cedd8"></a>
 
 # Navigation
 
@@ -155,7 +155,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | ] }             | evil-next-close-brace                         |                                                                              |
 
 
-<a id="org28868d4"></a>
+<a id="org529a209"></a>
 
 # Searching / Finding
 
@@ -182,7 +182,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | g C-]    | find-tag                            |
 
 
-<a id="orgb0200dd"></a>
+<a id="org10231a5"></a>
 
 # Editing
 
@@ -214,7 +214,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | g w      | evil-fill                 | Fill text.                                                                                                                                                                                                          |
 
 
-<a id="org918cfa8"></a>
+<a id="orge602652"></a>
 
 # Navigation
 
@@ -230,7 +230,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | &#60;down-mouse-1&#62; | evil-mouse-drag-region             |
 
 
-<a id="orgaeac62e"></a>
+<a id="org06cf066"></a>
 
 # Window management
 
@@ -285,7 +285,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | C-w C-S-l  | evil-window-move-far-right   |                                                                                                                                                                                                                                                |
 
 
-<a id="org899cb8b"></a>
+<a id="orge455a3f"></a>
 
 # Bindings starting with g
 
@@ -295,7 +295,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | g a      | what-cursor-position |
 
 
-<a id="orgdb2ce51"></a>
+<a id="orgb852734"></a>
 
 # Macro
 
@@ -311,7 +311,7 @@ This is a cheat-sheet evil-mode. There are so many key-bindings that I took the 
 | z &#60;right&#62;  | Keyboard Macro     |
 
 
-<a id="org9a671df"></a>
+<a id="org9d7da6f"></a>
 
 # Other
 

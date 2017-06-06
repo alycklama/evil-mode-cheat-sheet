@@ -1,5 +1,5 @@
 * Intro
-This is a cheat-sheet evil-mode. There are so many key-bindings that I took the opportunity to create a handy cheat-sheet, to support my own learning process.
+This is a cheat-sheet for evil-mode. There are so many key-bindings that I took the opportunity to create a handy cheat-sheet, supporting my own learning process. If anything is missing or wrong, pull requests are more than welcome!
 
 * General
 | Shortcut | Binding                      |
