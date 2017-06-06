@@ -1,17 +1,25 @@
-- [General](#orgf756549)
-- [Prefix commands](#org4c84b89)
-- [Selection](#orgd4ccfb8)
-- [Navigation](#org2ab0955)
-- [Searching / Finding](#org2df702d)
-- [Editing](#orgfad2786)
-- [Navigation](#org6c1b75d)
-- [Window management](#orgbd749b6)
-- [Bindings starting with g](#orgce6605b)
-- [Macro](#orge7559a5)
-- [Other](#org240838f)
+- [Intro](#orgc774f25)
+- [General](#orgf7ee813)
+- [Prefix commands](#org0f55f9b)
+- [Selection](#org9968e37)
+- [Navigation](#org5c3f1ed)
+- [Searching / Finding](#org28868d4)
+- [Editing](#orgb0200dd)
+- [Navigation](#org918cfa8)
+- [Window management](#orgaeac62e)
+- [Bindings starting with g](#org899cb8b)
+- [Macro](#orgdb2ce51)
+- [Other](#org9a671df)
 
 
-<a id="orgf756549"></a>
+<a id="orgc774f25"></a>
+
+# Intro
+
+This is a cheat-sheet evil-mode. There are so many key-bindings that I took the opportunity to create a handy cheat-sheet, to support my own learning process.
+
+
+<a id="orgf7ee813"></a>
 
 # General
 
@@ -34,7 +42,7 @@
 | Z Z      | evil-save-modified-and-close |
 
 
-<a id="org4c84b89"></a>
+<a id="org0f55f9b"></a>
 
 # Prefix commands
 
@@ -48,7 +56,7 @@
 | ]        | Prefix Command |
 
 
-<a id="orgd4ccfb8"></a>
+<a id="org9968e37"></a>
 
 # Selection
 
@@ -60,7 +68,7 @@
 | C-v      | evil-visual-block   | Blockwise selection         |
 
 
-<a id="org2ab0955"></a>
+<a id="org5c3f1ed"></a>
 
 # Navigation
 
@@ -147,7 +155,7 @@
 | ] }             | evil-next-close-brace                         |                                                                              |
 
 
-<a id="org2df702d"></a>
+<a id="org28868d4"></a>
 
 # Searching / Finding
 
@@ -174,7 +182,7 @@
 | g C-]    | find-tag                            |
 
 
-<a id="orgfad2786"></a>
+<a id="orgb0200dd"></a>
 
 # Editing
 
@@ -206,7 +214,7 @@
 | g w      | evil-fill                 | Fill text.                                                                                                                                                                                                          |
 
 
-<a id="org6c1b75d"></a>
+<a id="org918cfa8"></a>
 
 # Navigation
 
@@ -222,7 +230,7 @@
 | &#60;down-mouse-1&#62; | evil-mouse-drag-region             |
 
 
-<a id="orgbd749b6"></a>
+<a id="orgaeac62e"></a>
 
 # Window management
 
@@ -277,7 +285,7 @@
 | C-w C-S-l  | evil-window-move-far-right   |                                                                                                                                                                                                                                                |
 
 
-<a id="orgce6605b"></a>
+<a id="org899cb8b"></a>
 
 # Bindings starting with g
 
@@ -287,7 +295,7 @@
 | g a      | what-cursor-position |
 
 
-<a id="orge7559a5"></a>
+<a id="orgdb2ce51"></a>
 
 # Macro
 
@@ -303,7 +311,7 @@
 | z &#60;right&#62;  | Keyboard Macro     |
 
 
-<a id="org240838f"></a>
+<a id="org9a671df"></a>
 
 # Other
 

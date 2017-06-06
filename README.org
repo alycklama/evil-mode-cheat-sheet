@@ -1,3 +1,6 @@
+* Intro
+This is a cheat-sheet evil-mode. There are so many key-bindings that I took the opportunity to create a handy cheat-sheet, to support my own learning process.
+
 * General
 | Shortcut | Binding                      |
 |----------+------------------------------|
