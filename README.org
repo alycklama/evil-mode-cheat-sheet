@@ -1,26 +1,26 @@
 * Intro
-This is a cheat-sheet for evil-mode. There are so many key-bindings that I took the opportunity to create a handy cheat-sheet, supporting my own learning process. If anything is missing or wrong, pull requests are more than welcome!
+This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindings that I took the opportunity to create a handy cheat&nbsp;sheet, supporting my own learning process. If anything is missing or wrong, pull requests are more than welcome!
 
 * General
-| Shortcut | Binding                      |
-|----------+------------------------------|
-| C-r      | redo                         |
-| u        | undo                         |
-| y        | evil-yank                    |
-| Y        | evil-yank-line               |
-| .        | evil-repeat                  |
-| p        | evil-paste-after             |
-| P        | evil-paste-before            |
-| TAB      | evil-jump-forward            |
-| C-o      | evil-jump-backward           |
-| %        | evil-jump-item               |
-|----------+------------------------------|
-| C-p      | evil-paste-pop               |
-| C-n      | evil-paste-pop-next          |
-| C-t      | pop-tag-mark                 |
-|----------+------------------------------|
-| Z Q      | evil-quit                    |
-| Z Z      | evil-save-modified-and-close |
+| Shortcut | Binding                                          |
+|----------+--------------------------------------------------|
+| C&nbsp;r | redo                                             |
+| u        | undo                                             |
+| y        | evil&nbsp;yank                                   |
+| Y        | evil&nbsp;yank&nbsp;line                         |
+| .        | evil&nbsp;repeat                                 |
+| p        | evil&nbsp;paste&nbsp;after                       |
+| P        | evil&nbsp;paste&nbsp;before                      |
+| TAB      | evil&nbsp;jump&nbsp;forward                      |
+| C&nbsp;o | evil&nbsp;jump&nbsp;backward                     |
+| %        | evil&nbsp;jump&nbsp;item                         |
+|----------+--------------------------------------------------|
+| C&nbsp;p | evil&nbsp;paste&nbsp;pop                         |
+| C&nbsp;n | evil&nbsp;paste&nbsp;pop&nbsp;next               |
+| C&nbsp;t | pop&nbsp;tag&nbsp;mark                           |
+|----------+--------------------------------------------------|
+| Z Q      | evil&nbsp;quit                                   |
+| Z Z      | evil&nbsp;save&nbsp;modified&nbsp;and&nbsp;close |
 
 * Prefix commands
 | Shortcut | Binding        |
@@ -33,257 +33,257 @@ This is a cheat-sheet for evil-mode. There are so many key-bindings that I took 
 | ]        | Prefix Command |
 
 * Selection
-| Shortcut | Binding             | Description                 |
-|----------+---------------------+-----------------------------|
-| g v      | evil-visual-restore | Restore previous selection. |
-| V        | evil-visual-line    | Linewise selection          |
-| v        | evil-visual-char    | Characterwise selection     |
-| C-v      | evil-visual-block   | Blockwise selection         |
+| Shortcut | Binding                       | Description                 |
+|----------+-------------------------------+-----------------------------|
+| g v      | evil&nbsp;visual&nbsp;restore | Restore previous selection. |
+| V        | evil&nbsp;visual&nbsp;line    | Linewise selection          |
+| v        | evil&nbsp;visual&nbsp;char    | Characterwise selection     |
+| C&nbsp;v | evil&nbsp;visual&nbsp;block   | Blockwise selection         |
 
 * Navigation
-| Shortcut        | Binding                                       | Description                                                                  |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| RET             | evil-ret                                      |                                                                              |
-| '               | evil-goto-mark-line                           |                                                                              |
-| `               | evil-goto-mark                                |                                                                              |
-| \vert           | evil-goto-column                              |                                                                              |
-| o               | evil-open-below                               |                                                                              |
-| O               | evil-open-above                               |                                                                              |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| H               | evil-window-top                               |                                                                              |
-| M               | evil-window-middle                            |                                                                              |
-| L               | evil-window-bottom                            |                                                                              |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| C-y             | evil-scroll-line-up                           |                                                                              |
-| C-e             | evil-scroll-line-down                         |                                                                              |
-| C-b             | evil-scroll-page-up                           |                                                                              |
-| C-f             | evil-scroll-page-down                         |                                                                              |
-| C-d             | evil-scroll-down                              |                                                                              |
-| z t             | evil-scroll-line-to-top                       |                                                                              |
-| z z             | evil-scroll-line-to-center                    |                                                                              |
-| z b             | evil-scroll-line-to-bottom                    |                                                                              |
-| z ^             | evil-scroll-top-line-to-bottom                |                                                                              |
-| z +             | evil-scroll-bottom-line-to-top                |                                                                              |
-| z H             | evil-scroll-left                              |                                                                              |
-| z L             | evil-scroll-right                             |                                                                              |
-| z h             | evil-scroll-column-left                       |                                                                              |
-| z l             | evil-scroll-column-right                      |                                                                              |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| z O             | evil-open-fold-rec                            |                                                                              |
-| z a             | evil-toggle-fold                              |                                                                              |
-| z o             | evil-open-fold                                |                                                                              |
-| z c             | evil-close-fold                               |                                                                              |
-| z r             | evil-open-folds                               |                                                                              |
-| z m             | evil-close-folds                              |                                                                              |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| C-w             | evil-window-map                               |                                                                              |
-| C-z             | evil-emacs-state                              |                                                                              |
-| C-]             | evil-jump-to-tag                              |                                                                              |
-| C-^             | evil-buffer                                   |                                                                              |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| &#60;up&#62;    | evil-previous-visual-line                     |                                                                              |
-| &#60;down&#62;  | evil-next-visual-line                         |                                                                              |
-| &#60;left&#62;  | evil-backward-char                            |                                                                              |
-| &#60;right&#62; | evil-forward-char                             |                                                                              |
-| SPC             | evil-forward-char                             |                                                                              |
-| j               | evil-next-visual-line                         |                                                                              |
-| k               | evil-previous-visual-line                     |                                                                              |
-| g j             | evil-next-visual-line                         |                                                                              |
-| g k             | evil-previous-visual-line                     |                                                                              |
-| g 0             | evil-beginning-of-visual-line                 |                                                                              |
-| g $             | evil-end-of-visual-line                       |                                                                              |
-| w               | evil-forward-word-begin                       |                                                                              |
-| W               | evil-forward-WORD-begin                       |                                                                              |
-| e               | evil-forward-word-end                         |                                                                              |
-| E               | evil-forward-WORD-end                         |                                                                              |
-| b               | evil-backward-word-begin                      |                                                                              |
-| B               | evil-backward-WORD-begin                      |                                                                              |
-| g e             | evil-backward-word-end                        |                                                                              |
-| g E             | evil-backward-WORD-end                        |                                                                              |
-| g g             | evil-goto-first-line                          |                                                                              |
-| G               | evil-goto-line                                | Go to the first non-blank character of line COUNT. By default the last line. |
-| g m             | evil-middle-of-visual-line                    |                                                                              |
-| g ,             | goto-last-change-reverse                      |                                                                              |
-| g ;             | goto-last-change                              |                                                                              |
-| g d             | evil-goto-definition                          |                                                                              |
-| $               | evil-end-of-line                              |                                                                              |
-| )               | evil-forward-sentence-begin                   |                                                                              |
-| (               | evil-backward-sentence-begin                  |                                                                              |
-| +               | evil-next-line-first-non-blank                |                                                                              |
-| ^               | evil-first-non-blank                          |                                                                              |
-| _               | evil-next-line-1-first-non-blank              |                                                                              |
-| g _             | evil-last-non-blank                           |                                                                              |
-| 0               | evil-digit-argument-or-evil-beginning-of-line |                                                                              |
-| g ^             | evil-first-non-blank-of-visual-line           |                                                                              |
-| h               | evil-backward-char                            |                                                                              |
-| l               | evil-forward-char                             |                                                                              |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| [ (             | evil-previous-open-paren                      |                                                                              |
-| [ [             | evil-backward-section-begin                   |                                                                              |
-| [ ]             | evil-backward-section-end                     |                                                                              |
-| [ s             | evil-prev-flyspell-error                      |                                                                              |
-| [ {             | evil-previous-open-brace                      |                                                                              |
-|-----------------+-----------------------------------------------+------------------------------------------------------------------------------|
-| ] )             | evil-next-close-paren                         |                                                                              |
-| ] [             | evil-forward-section-end                      |                                                                              |
-| ] ]             | evil-forward-section-begin                    |                                                                              |
-| ] s             | evil-next-flyspell-error                      |                                                                              |
-| ] }             | evil-next-close-brace                         |                                                                              |
+| Shortcut        | Binding                                                                          | Description                                                                       |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| RET             | evil&nbsp;ret                                                                    |                                                                                   |
+| '               | evil&nbsp;goto&nbsp;mark&nbsp;line                                               |                                                                                   |
+| `               | evil&nbsp;goto&nbsp;mark                                                         |                                                                                   |
+| \vert           | evil&nbsp;goto&nbsp;column                                                       |                                                                                   |
+| o               | evil&nbsp;open&nbsp;below                                                        |                                                                                   |
+| O               | evil&nbsp;open&nbsp;above                                                        |                                                                                   |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| H               | evil&nbsp;window&nbsp;top                                                        |                                                                                   |
+| M               | evil&nbsp;window&nbsp;middle                                                     |                                                                                   |
+| L               | evil&nbsp;window&nbsp;bottom                                                     |                                                                                   |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| C&nbsp;y        | evil&nbsp;scroll&nbsp;line&nbsp;up                                               |                                                                                   |
+| C&nbsp;e        | evil&nbsp;scroll&nbsp;line&nbsp;down                                             |                                                                                   |
+| C&nbsp;b        | evil&nbsp;scroll&nbsp;page&nbsp;up                                               |                                                                                   |
+| C&nbsp;f        | evil&nbsp;scroll&nbsp;page&nbsp;down                                             |                                                                                   |
+| C&nbsp;d        | evil&nbsp;scroll&nbsp;down                                                       |                                                                                   |
+| z t             | evil&nbsp;scroll&nbsp;line&nbsp;to&nbsp;top                                      |                                                                                   |
+| z z             | evil&nbsp;scroll&nbsp;line&nbsp;to&nbsp;center                                   |                                                                                   |
+| z b             | evil&nbsp;scroll&nbsp;line&nbsp;to&nbsp;bottom                                   |                                                                                   |
+| z ^             | evil&nbsp;scroll&nbsp;top&nbsp;line&nbsp;to&nbsp;bottom                          |                                                                                   |
+| z +             | evil&nbsp;scroll&nbsp;bottom&nbsp;line&nbsp;to&nbsp;top                          |                                                                                   |
+| z H             | evil&nbsp;scroll&nbsp;left                                                       |                                                                                   |
+| z L             | evil&nbsp;scroll&nbsp;right                                                      |                                                                                   |
+| z h             | evil&nbsp;scroll&nbsp;column&nbsp;left                                           |                                                                                   |
+| z l             | evil&nbsp;scroll&nbsp;column&nbsp;right                                          |                                                                                   |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| z O             | evil&nbsp;open&nbsp;fold&nbsp;rec                                                |                                                                                   |
+| z a             | evil&nbsp;toggle&nbsp;fold                                                       |                                                                                   |
+| z o             | evil&nbsp;open&nbsp;fold                                                         |                                                                                   |
+| z c             | evil&nbsp;close&nbsp;fold                                                        |                                                                                   |
+| z r             | evil&nbsp;open&nbsp;folds                                                        |                                                                                   |
+| z m             | evil&nbsp;close&nbsp;folds                                                       |                                                                                   |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| C&nbsp;w        | evil&nbsp;window&nbsp;map                                                        |                                                                                   |
+| C&nbsp;z        | evil&nbsp;emacs&nbsp;state                                                       |                                                                                   |
+| C-]             | evil&nbsp;jump&nbsp;to&nbsp;tag                                                  |                                                                                   |
+| C-^             | evil&nbsp;buffer                                                                 |                                                                                   |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| &#60;up&#62;    | evil&nbsp;previous&nbsp;visual&nbsp;line                                         |                                                                                   |
+| &#60;down&#62;  | evil&nbsp;next&nbsp;visual&nbsp;line                                             |                                                                                   |
+| &#60;left&#62;  | evil&nbsp;backward&nbsp;char                                                     |                                                                                   |
+| &#60;right&#62; | evil&nbsp;forward&nbsp;char                                                      |                                                                                   |
+| SPC             | evil&nbsp;forward&nbsp;char                                                      |                                                                                   |
+| j               | evil&nbsp;next&nbsp;visual&nbsp;line                                             |                                                                                   |
+| k               | evil&nbsp;previous&nbsp;visual&nbsp;line                                         |                                                                                   |
+| g j             | evil&nbsp;next&nbsp;visual&nbsp;line                                             |                                                                                   |
+| g k             | evil&nbsp;previous&nbsp;visual&nbsp;line                                         |                                                                                   |
+| g 0             | evil&nbsp;beginning&nbsp;of&nbsp;visual&nbsp;line                                |                                                                                   |
+| g $             | evil&nbsp;end&nbsp;of&nbsp;visual&nbsp;line                                      |                                                                                   |
+| w               | evil&nbsp;forward&nbsp;word&nbsp;begin                                           |                                                                                   |
+| W               | evil&nbsp;forward&nbsp;WORD&nbsp;begin                                           |                                                                                   |
+| e               | evil&nbsp;forward&nbsp;word&nbsp;end                                             |                                                                                   |
+| E               | evil&nbsp;forward&nbsp;WORD&nbsp;end                                             |                                                                                   |
+| b               | evil&nbsp;backward&nbsp;word&nbsp;begin                                          |                                                                                   |
+| B               | evil&nbsp;backward&nbsp;WORD&nbsp;begin                                          |                                                                                   |
+| g e             | evil&nbsp;backward&nbsp;word&nbsp;end                                            |                                                                                   |
+| g E             | evil&nbsp;backward&nbsp;WORD&nbsp;end                                            |                                                                                   |
+| g g             | evil&nbsp;goto&nbsp;first&nbsp;line                                              |                                                                                   |
+| G               | evil&nbsp;goto&nbsp;line                                                         | Go to the first non&nbsp;blank character of line COUNT. By default the last line. |
+| g m             | evil&nbsp;middle&nbsp;of&nbsp;visual&nbsp;line                                   |                                                                                   |
+| g ,             | goto&nbsp;last&nbsp;change&nbsp;reverse                                          |                                                                                   |
+| g ;             | goto&nbsp;last&nbsp;change                                                       |                                                                                   |
+| g d             | evil&nbsp;goto&nbsp;definition                                                   |                                                                                   |
+| $               | evil&nbsp;end&nbsp;of&nbsp;line                                                  |                                                                                   |
+| )               | evil&nbsp;forward&nbsp;sentence&nbsp;begin                                       |                                                                                   |
+| (               | evil&nbsp;backward&nbsp;sentence&nbsp;begin                                      |                                                                                   |
+| +               | evil&nbsp;next&nbsp;line&nbsp;first&nbsp;non&nbsp;blank                          |                                                                                   |
+| ^               | evil&nbsp;first&nbsp;non&nbsp;blank                                              |                                                                                   |
+| _               | evil&nbsp;next&nbsp;line-1-first&nbsp;non&nbsp;blank                             |                                                                                   |
+| g _             | evil&nbsp;last&nbsp;non&nbsp;blank                                               |                                                                                   |
+| 0               | evil&nbsp;digit&nbsp;argument&nbsp;or&nbsp;evil&nbsp;beginning&nbsp;of&nbsp;line |                                                                                   |
+| g ^             | evil&nbsp;first&nbsp;non&nbsp;blank&nbsp;of&nbsp;visual&nbsp;line                |                                                                                   |
+| h               | evil&nbsp;backward&nbsp;char                                                     |                                                                                   |
+| l               | evil&nbsp;forward&nbsp;char                                                      |                                                                                   |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| [ (             | evil&nbsp;previous&nbsp;open&nbsp;paren                                          |                                                                                   |
+| [ [             | evil&nbsp;backward&nbsp;section&nbsp;begin                                       |                                                                                   |
+| [ ]             | evil&nbsp;backward&nbsp;section&nbsp;end                                         |                                                                                   |
+| [ s             | evil&nbsp;prev&nbsp;flyspell&nbsp;error                                          |                                                                                   |
+| [ {             | evil&nbsp;previous&nbsp;open&nbsp;brace                                          |                                                                                   |
+|-----------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+| ] )             | evil&nbsp;next&nbsp;close&nbsp;paren                                             |                                                                                   |
+| ] [             | evil&nbsp;forward&nbsp;section&nbsp;end                                          |                                                                                   |
+| ] ]             | evil&nbsp;forward&nbsp;section&nbsp;begin                                        |                                                                                   |
+| ] s             | evil&nbsp;next&nbsp;flyspell&nbsp;error                                          |                                                                                   |
+| ] }             | evil&nbsp;next&nbsp;close&nbsp;brace                                             |                                                                                   |
 
 * Searching / Finding
-| Shortcut | Binding                             |
-|----------+-------------------------------------|
-| #        | evil-search-word-backward           |
-| *        | evil-search-word-forward            |
-| &#47;    | evil-search-forward                 |
-| ?        | evil-search-backward                |
-| N        | evil-search-previous                |
-| n        | evil-search-next                    |
-| g #      | evil-search-unbounded-word-backward |
-| g *      | evil-search-unbounded-word-forward  |
-| g N      | evil-previous-match                 |
-| g n      | evil-next-match                     |
-|----------+-------------------------------------|
-| ,        | evil-repeat-find-char-reverse       |
-| ;        | evil-repeat-find-char               |
-| F        | evil-find-char-backward             |
-| T        | evil-find-char-to-backward          |
-| f        | evil-find-char                      |
-| t        | evil-find-char-to                   |
-| g f      | find-file-at-point                  |
-| g F      | evil-find-file-at-point-with-line   |
-| g C-]    | find-tag                            |
+| Shortcut | Binding                                                         |
+|----------+-----------------------------------------------------------------|
+| #        | evil&nbsp;search&nbsp;word&nbsp;backward                        |
+| *        | evil&nbsp;search&nbsp;word&nbsp;forward                         |
+| &#47;    | evil&nbsp;search&nbsp;forward                                   |
+| ?        | evil&nbsp;search&nbsp;backward                                  |
+| N        | evil&nbsp;search&nbsp;previous                                  |
+| n        | evil&nbsp;search&nbsp;next                                      |
+| g #      | evil&nbsp;search&nbsp;unbounded&nbsp;word&nbsp;backward         |
+| g *      | evil&nbsp;search&nbsp;unbounded&nbsp;word&nbsp;forward          |
+| g N      | evil&nbsp;previous&nbsp;match                                   |
+| g n      | evil&nbsp;next&nbsp;match                                       |
+|----------+-----------------------------------------------------------------|
+| ,        | evil&nbsp;repeat&nbsp;find&nbsp;char&nbsp;reverse               |
+| ;        | evil&nbsp;repeat&nbsp;find&nbsp;char                            |
+| F        | evil&nbsp;find&nbsp;char&nbsp;backward                          |
+| T        | evil&nbsp;find&nbsp;char&nbsp;to&nbsp;backward                  |
+| f        | evil&nbsp;find&nbsp;char                                        |
+| t        | evil&nbsp;find&nbsp;char&nbsp;to                                |
+| g f      | find&nbsp;file&nbsp;at&nbsp;point                               |
+| g F      | evil&nbsp;find&nbsp;file&nbsp;at&nbsp;point&nbsp;with&nbsp;line |
+| g C-]    | find&nbsp;tag                                                   |
 
 * Editing
-| Shortcut | Binding                   |                                                                                                                                                                                                                     |
-|----------+---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| &#60;    | evil-shift-left           |                                                                                                                                                                                                                     |
-| &#61;        | evil-indent               |                                                                                                                                                                                                                     |
-| &#62;    | evil-shift-right          |                                                                                                                                                                                                                     |
-| A        | evil-append-line          |                                                                                                                                                                                                                     |
-| C        | evil-change-line          |                                                                                                                                                                                                                     |
-| D        | evil-delete-line          |                                                                                                                                                                                                                     |
-| I        | evil-insert-line          |                                                                                                                                                                                                                     |
-| S        | evil-change-whole-line    |                                                                                                                                                                                                                     |
-| X        | evil-delete-backward-char |                                                                                                                                                                                                                     |
-| J        | evil-join                 |                                                                                                                                                                                                                     |
-| R        | evil-replace-state        |                                                                                                                                                                                                                     |
-| a        | evil-append               |                                                                                                                                                                                                                     |
-| c        | evil-change               |                                                                                                                                                                                                                     |
-| d        | evil-delete               |                                                                                                                                                                                                                     |
-| i        | evil-insert               |                                                                                                                                                                                                                     |
-| x        | evil-delete-char          |                                                                                                                                                                                                                     |
-| g J      | evil-join-whitespace      |                                                                                                                                                                                                                     |
-| g U      | evil-upcase               |                                                                                                                                                                                                                     |
-| g u      | evil-downcase             |                                                                                                                                                                                                                     |
-| g ~      | evil-invert-case          |                                                                                                                                                                                                                     |
-| g ?      | evil-rot13                | ROT13 encrypt text.                                                                                                                                                                                                 |
-| g i      | evil-insert-resume        | Switch to Insert state at previous insertion point. The insertion will be repeated COUNT times. If called from visual state, only place point at the previous insertion position but do not switch to insert state. |
-| g q      | evil-fill-and-move        |                                                                                                                                                                                                                     |
-| g w      | evil-fill                 | Fill text.                                                                                                                                                                                                          |
+| Shortcut | Binding                                  |                                                                                                                                                                                                                     |
+|----------+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| &#60;    | evil&nbsp;shift&nbsp;left                |                                                                                                                                                                                                                     |
+| &#61;    | evil&nbsp;indent                         |                                                                                                                                                                                                                     |
+| &#62;    | evil&nbsp;shift&nbsp;right               |                                                                                                                                                                                                                     |
+| A        | evil&nbsp;append&nbsp;line               |                                                                                                                                                                                                                     |
+| C        | evil&nbsp;change&nbsp;line               |                                                                                                                                                                                                                     |
+| D        | evil&nbsp;delete&nbsp;line               |                                                                                                                                                                                                                     |
+| I        | evil&nbsp;insert&nbsp;line               |                                                                                                                                                                                                                     |
+| S        | evil&nbsp;change&nbsp;whole&nbsp;line    |                                                                                                                                                                                                                     |
+| X        | evil&nbsp;delete&nbsp;backward&nbsp;char |                                                                                                                                                                                                                     |
+| J        | evil&nbsp;join                           |                                                                                                                                                                                                                     |
+| R        | evil&nbsp;replace&nbsp;state             |                                                                                                                                                                                                                     |
+| a        | evil&nbsp;append                         |                                                                                                                                                                                                                     |
+| c        | evil&nbsp;change                         |                                                                                                                                                                                                                     |
+| d        | evil&nbsp;delete                         |                                                                                                                                                                                                                     |
+| i        | evil&nbsp;insert                         |                                                                                                                                                                                                                     |
+| x        | evil&nbsp;delete&nbsp;char               |                                                                                                                                                                                                                     |
+| g J      | evil&nbsp;join&nbsp;whitespace           |                                                                                                                                                                                                                     |
+| g U      | evil&nbsp;upcase                         |                                                                                                                                                                                                                     |
+| g u      | evil&nbsp;downcase                       |                                                                                                                                                                                                                     |
+| g ~      | evil&nbsp;invert&nbsp;case               |                                                                                                                                                                                                                     |
+| g ?      | evil&nbsp;rot13                          | ROT13 encrypt text.                                                                                                                                                                                                 |
+| g i      | evil&nbsp;insert&nbsp;resume             | Switch to Insert state at previous insertion point. The insertion will be repeated COUNT times. If called from visual state, only place point at the previous insertion position but do not switch to insert state. |
+| g q      | evil&nbsp;fill&nbsp;and&nbsp;move        |                                                                                                                                                                                                                     |
+| g w      | evil&nbsp;fill                           | Fill text.                                                                                                                                                                                                          |
 
 * Navigation
-| Shortcut               | Binding                            |
-|------------------------+------------------------------------|
-| !                      | evil-shell-command                 |
-|------------------------+------------------------------------|
-| 1 .. 9                 | digit-argument                     |
-| K                      | evil-lookup                        |
-| \                      | evil-execute-in-emacs-state        |
-| }                      | evil-forward-paragraph             |
-| {                      | evil-backward-paragraph            |
-| C-6                    | evil-switch-to-windows-last-buffer |
-| &#60;down-mouse-1&#62; | evil-mouse-drag-region             |
-|------------------------+------------------------------------|
+| Shortcut                    | Binding                                                     |
+|-----------------------------+-------------------------------------------------------------|
+| !                           | evil&nbsp;shell&nbsp;command                                |
+|-----------------------------+-------------------------------------------------------------|
+| 1 .. 9                      | digit&nbsp;argument                                         |
+| K                           | evil&nbsp;lookup                                            |
+| \                           | evil&nbsp;execute&nbsp;in&nbsp;emacs&nbsp;state             |
+| }                           | evil&nbsp;forward&nbsp;paragraph                            |
+| {                           | evil&nbsp;backward&nbsp;paragraph                           |
+| C-6                         | evil&nbsp;switch&nbsp;to&nbsp;windows&nbsp;last&nbsp;buffer |
+| &#60;down&nbsp;mouse-1&#62; | evil&nbsp;mouse&nbsp;drag&nbsp;region                       |
+|-----------------------------+-------------------------------------------------------------|
 
 * Window management
-| Shortcut  | Binding                      | Description                                                                                                                                                                                                                                    |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C-w C-n   | evil-window-new              |                                                                                                                                                                                                                                                |
-| C-w n     | evil-window-new              |                                                                                                                                                                                                                                                |
-| C-w C-c   | evil-window-delete           |                                                                                                                                                                                                                                                |
-| C-w c     | evil-window-delete           |                                                                                                                                                                                                                                                |
-| C-w C-o   | delete-other-windows         |                                                                                                                                                                                                                                                |
-| C-w o     | delete-other-windows         |                                                                                                                                                                                                                                                |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C-w k     | evil-window-up               |                                                                                                                                                                                                                                                |
-| C-w j     | evil-window-down             |                                                                                                                                                                                                                                                |
-| C-w h     | evil-window-left             |                                                                                                                                                                                                                                                |
-| C-w l     | evil-window-right            |                                                                                                                                                                                                                                                |
-| C-w t     | evil-window-top-left         |                                                                                                                                                                                                                                                |
-| C-w C-t   | evil-window-top-left         |                                                                                                                                                                                                                                                |
-| C-w b     | evil-window-bottom-right     |                                                                                                                                                                                                                                                |
-| C-w C-b   | evil-window-bottom-right     |                                                                                                                                                                                                                                                |
-| C-w C-f   | ffap-other-window            | Like ‘ffap’, but put buffer in another window. Only intended for interactive use.                                                                                                                                                              |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C-w &#61; | balance-windows              |                                                                                                                                                                                                                                                |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| -w C-s    | evil-window-split            |                                                                                                                                                                                                                                                |
-| C-w s     | evil-window-split            |                                                                                                                                                                                                                                                |
-| C-w C-S-s | evil-window-split            |                                                                                                                                                                                                                                                |
-| C-w v     | evil-window-vsplit           |                                                                                                                                                                                                                                                |
-| C-w C-v   | evil-window-vsplit           |                                                                                                                                                                                                                                                |
-| C-w S     | evil-window-split            |                                                                                                                                                                                                                                                |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C-w R     | evil-window-rotate-upwards   |                                                                                                                                                                                                                                                |
-| C-w r     | evil-window-rotate-downwards |                                                                                                                                                                                                                                                |
-| C-w C-S-r | evil-window-rotate-upwards   |                                                                                                                                                                                                                                                |
-| C-w C-r   | evil-window-rotate-downwards |                                                                                                                                                                                                                                                |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C-w C-_   | evil-window-set-height       |                                                                                                                                                                                                                                                |
-| C-w _     | evil-window-set-height       |                                                                                                                                                                                                                                                |
-| C-w \vert | evil-window-set-width        |                                                                                                                                                                                                                                                |
-| C-w +     | evil-window-increase-height  |                                                                                                                                                                                                                                                |
-| C-w -     | evil-window-decrease-height  |                                                                                                                                                                                                                                                |
-| C-w &#62; | evil-window-increase-width   |                                                                                                                                                                                                                                                |
-| C-w &#60; | evil-window-decrease-width   |                                                                                                                                                                                                                                                |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C-w w     | evil-window-next             |                                                                                                                                                                                                                                                |
-| C-w C-w   | evil-window-next             |                                                                                                                                                                                                                                                |
-| C-w W     | evil-window-prev             |                                                                                                                                                                                                                                                |
-| C-w C-S-w | evil-window-prev             |                                                                                                                                                                                                                                                |
-| C-w C-p   | evil-window-mru              | Move the cursor to the previous (last accessed) buffer in another window. More precisely, it selects the most recently used buffer that is shown in some other window, preferably of the current frame, and is different from the current one. |
-| C-w p     | evil-window-mru              |                                                                                                                                                                                                                                                |
-|-----------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C-w K     | evil-window-move-very-top    |                                                                                                                                                                                                                                                |
-| C-w C-S-k | evil-window-move-very-top    |                                                                                                                                                                                                                                                |
-| C-w J     | evil-window-move-very-bottom |                                                                                                                                                                                                                                                |
-| C-w C-S-j | evil-window-move-very-bottom |                                                                                                                                                                                                                                                |
-| C-w H     | evil-window-move-far-left    |                                                                                                                                                                                                                                                |
-| C-w C-S-h | evil-window-move-far-left    |                                                                                                                                                                                                                                                |
-| C-w L     | evil-window-move-far-right   |                                                                                                                                                                                                                                                |
-| C-w C-S-l | evil-window-move-far-right   |                                                                                                                                                                                                                                                |
+| Shortcut            | Binding                                          | Description                                                                                                                                                                                                                                    |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C&nbsp;w C&nbsp;n   | evil&nbsp;window&nbsp;new                        |                                                                                                                                                                                                                                                |
+| C&nbsp;w n          | evil&nbsp;window&nbsp;new                        |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;c   | evil&nbsp;window&nbsp;delete                     |                                                                                                                                                                                                                                                |
+| C&nbsp;w c          | evil&nbsp;window&nbsp;delete                     |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;o   | delete&nbsp;other&nbsp;windows                   |                                                                                                                                                                                                                                                |
+| C&nbsp;w o          | delete&nbsp;other&nbsp;windows                   |                                                                                                                                                                                                                                                |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C&nbsp;w k          | evil&nbsp;window&nbsp;up                         |                                                                                                                                                                                                                                                |
+| C&nbsp;w j          | evil&nbsp;window&nbsp;down                       |                                                                                                                                                                                                                                                |
+| C&nbsp;w h          | evil&nbsp;window&nbsp;left                       |                                                                                                                                                                                                                                                |
+| C&nbsp;w l          | evil&nbsp;window&nbsp;right                      |                                                                                                                                                                                                                                                |
+| C&nbsp;w t          | evil&nbsp;window&nbsp;top&nbsp;left              |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;t   | evil&nbsp;window&nbsp;top&nbsp;left              |                                                                                                                                                                                                                                                |
+| C&nbsp;w b          | evil&nbsp;window&nbsp;bottom&nbsp;right          |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;b   | evil&nbsp;window&nbsp;bottom&nbsp;right          |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;f   | ffap&nbsp;other&nbsp;window                      | Like ‘ffap’, but put buffer in another window. Only intended for interactive use.                                                                                                                                                              |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C&nbsp;w &#61;      | balance&nbsp;windows                             |                                                                                                                                                                                                                                                |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -w C&nbsp;s         | evil&nbsp;window&nbsp;split                      |                                                                                                                                                                                                                                                |
+| C&nbsp;w s          | evil&nbsp;window&nbsp;split                      |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&NBSP;S-s | evil&nbsp;window&nbsp;split                      |                                                                                                                                                                                                                                                |
+| C&nbsp;w v          | evil&nbsp;window&nbsp;vsplit                     |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;v   | evil&nbsp;window&nbsp;vsplit                     |                                                                                                                                                                                                                                                |
+| C&nbsp;w S          | evil&nbsp;window&nbsp;split                      |                                                                                                                                                                                                                                                |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C&nbsp;w R          | evil&nbsp;window&nbsp;rotate&nbsp;upwards        |                                                                                                                                                                                                                                                |
+| C&nbsp;w r          | evil&nbsp;window&nbsp;rotate&nbsp;downwards      |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&NBSP;S-r | evil&nbsp;window&nbsp;rotate&nbsp;upwards        |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;r   | evil&nbsp;window&nbsp;rotate&nbsp;downwards      |                                                                                                                                                                                                                                                |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C&nbsp;w C-_        | evil&nbsp;window&nbsp;set&nbsp;height            |                                                                                                                                                                                                                                                |
+| C&nbsp;w _          | evil&nbsp;window&nbsp;set&nbsp;height            |                                                                                                                                                                                                                                                |
+| C&nbsp;w \vert      | evil&nbsp;window&nbsp;set&nbsp;width             |                                                                                                                                                                                                                                                |
+| C&nbsp;w +          | evil&nbsp;window&nbsp;increase&nbsp;height       |                                                                                                                                                                                                                                                |
+| C&nbsp;w -          | evil&nbsp;window&nbsp;decrease&nbsp;height       |                                                                                                                                                                                                                                                |
+| C&nbsp;w &#62;      | evil&nbsp;window&nbsp;increase&nbsp;width        |                                                                                                                                                                                                                                                |
+| C&nbsp;w &#60;      | evil&nbsp;window&nbsp;decrease&nbsp;width        |                                                                                                                                                                                                                                                |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C&nbsp;w w          | evil&nbsp;window&nbsp;next                       |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;w   | evil&nbsp;window&nbsp;next                       |                                                                                                                                                                                                                                                |
+| C&nbsp;w W          | evil&nbsp;window&nbsp;prev                       |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&NBSP;S-w | evil&nbsp;window&nbsp;prev                       |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&nbsp;p   | evil&nbsp;window&nbsp;mru                        | Move the cursor to the previous (last accessed) buffer in another window. More precisely, it selects the most recently used buffer that is shown in some other window, preferably of the current frame, and is different from the current one. |
+| C&nbsp;w p          | evil&nbsp;window&nbsp;mru                        |                                                                                                                                                                                                                                                |
+|---------------------+--------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C&nbsp;w K          | evil&nbsp;window&nbsp;move&nbsp;very&nbsp;top    |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&NBSP;S-k | evil&nbsp;window&nbsp;move&nbsp;very&nbsp;top    |                                                                                                                                                                                                                                                |
+| C&nbsp;w J          | evil&nbsp;window&nbsp;move&nbsp;very&nbsp;bottom |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&NBSP;S-j | evil&nbsp;window&nbsp;move&nbsp;very&nbsp;bottom |                                                                                                                                                                                                                                                |
+| C&nbsp;w H          | evil&nbsp;window&nbsp;move&nbsp;far&nbsp;left    |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&NBSP;S-h | evil&nbsp;window&nbsp;move&nbsp;far&nbsp;left    |                                                                                                                                                                                                                                                |
+| C&nbsp;w L          | evil&nbsp;window&nbsp;move&nbsp;far&nbsp;right   |                                                                                                                                                                                                                                                |
+| C&nbsp;w C&NBSP;S-l | evil&nbsp;window&nbsp;move&nbsp;far&nbsp;right   |                                                                                                                                                                                                                                                |
 
 * Bindings starting with g
-| Shortcut | Binding              |
-|----------+----------------------|
-| g 8      | what-cursor-position |
-| g a      | what-cursor-position |
+| Shortcut | Binding                        |
+|----------+--------------------------------|
+| g 8      | what&nbsp;cursor&nbsp;position |
+| g a      | what&nbsp;cursor&nbsp;position |
 
 * Macro
-| Shortcut           | Binding            |
-|--------------------+--------------------|
-| @                  | evil-execute-macro |
-| q                  | evil-record-macro  |
-| z RET              | Keyboard Macro     |
-| z -                | Keyboard Macro     |
-| z .                | Keyboard Macro     |
-| z &#60;left&#62;   | Keyboard Macro     |
-| z &#60;return&#62; | Keyboard Macro     |
-| z &#60;right&#62;  | Keyboard Macro     |
+| Shortcut           | Binding                      |
+|--------------------+------------------------------|
+| @                  | evil&nbsp;execute&nbsp;macro |
+| q                  | evil&nbsp;record&nbsp;macro  |
+| z RET              | Keyboard Macro               |
+| z -                | Keyboard Macro               |
+| z .                | Keyboard Macro               |
+| z &#60;left&#62;   | Keyboard Macro               |
+| z &#60;return&#62; | Keyboard Macro               |
+| z &#60;right&#62;  | Keyboard Macro               |
 
 * Other
-| Shortcut | Binding                          |
-|----------+----------------------------------|
-| "        | evil-use-register                |
-|----------+----------------------------------|
-| m        | evil-set-marker                  |
-| r        | evil-replace                     |
-| s        | evil-substitute                  |
-| ~        | evil-invert-char                 |
-| DEL      | evil-backward-char               |
-| C-.      | evil-repeat-pop                  |
-| M-.      | evil-repeat-pop-next             |
-| :        | evil-ex                          |
-| &        | evil-ex-repeat-substitute        |
-| g &      | evil-ex-repeat-global-substitute |
+| Shortcut | Binding                                              |
+|----------+------------------------------------------------------|
+| "        | evil&nbsp;use&nbsp;register                          |
+|----------+------------------------------------------------------|
+| m        | evil&nbsp;set&nbsp;marker                            |
+| r        | evil&nbsp;replace                                    |
+| s        | evil&nbsp;substitute                                 |
+| ~        | evil&nbsp;invert&nbsp;char                           |
+| DEL      | evil&nbsp;backward&nbsp;char                         |
+| C-.      | evil&nbsp;repeat&nbsp;pop                            |
+| M-.      | evil&nbsp;repeat&nbsp;pop&nbsp;next                  |
+| :        | evil&nbsp;ex                                         |
+| &        | evil&nbsp;ex&nbsp;repeat&nbsp;substitute             |
+| g &      | evil&nbsp;ex&nbsp;repeat&nbsp;global&nbsp;substitute |
