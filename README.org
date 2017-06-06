@@ -254,12 +254,6 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | C&#8209;w L           | evil&#8209;window&#8209;move&#8209;far&#8209;right   |                                                                                                                                                                                                                                                |
 | C&#8209;w C&#8209;S-l | evil&#8209;window&#8209;move&#8209;far&#8209;right   |                                                                                                                                                                                                                                                |
 
-* Bindings starting with g
-| Shortcut | Binding                          |
-|----------+----------------------------------|
-| g 8      | what&#8209;cursor&#8209;position |
-| g a      | what&#8209;cursor&#8209;position |
-
 * Macro
 | Shortcut           | Binding                        |
 |--------------------+--------------------------------|
@@ -287,3 +281,5 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | :        | evil&#8209;ex                                            |
 | &        | evil&#8209;ex&#8209;repeat&#8209;substitute              |
 | g &      | evil&#8209;ex&#8209;repeat&#8209;global&#8209;substitute |
+| g 8      | what&#8209;cursor&#8209;position                         |
+| g a      | what&#8209;cursor&#8209;position                         |

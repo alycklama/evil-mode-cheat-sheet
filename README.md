@@ -1,25 +1,24 @@
-- [Intro](#orgace68c7)
-- [General](#org25f2de9)
-- [Prefix commands](#org269586b)
-- [Selection](#org418dc1c)
-- [Navigation](#orgd606561)
-- [Searching / Finding](#orgc65feeb)
-- [Editing](#org586c5ff)
-- [Navigation](#orgc80e532)
-- [Window management](#org86b1e3e)
-- [Bindings starting with g](#orgb129dd2)
-- [Macro](#orgd81d16b)
-- [Other](#orgf54d111)
+- [Intro](#orgc49eec1)
+- [General](#orgf3e370e)
+- [Prefix commands](#org9ab1c6c)
+- [Selection](#org2f2de42)
+- [Navigation](#org7feac4b)
+- [Searching / Finding](#org95b5341)
+- [Editing](#orgdc5e105)
+- [Navigation](#org8d9c460)
+- [Window management](#org6b0f102)
+- [Macro](#orgb053f4a)
+- [Other](#orgef1a4e7)
 
 
-<a id="orgace68c7"></a>
+<a id="orgc49eec1"></a>
 
 # Intro
 
 This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindings that I took the opportunity to create a handy cheat&nbsp;sheet, supporting my own learning process. If anything is missing or wrong, pull requests are more than welcome!
 
 
-<a id="org25f2de9"></a>
+<a id="orgf3e370e"></a>
 
 # General
 
@@ -42,7 +41,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | Z Z       | evil&#8209;save&#8209;modified&#8209;and&#8209;close |
 
 
-<a id="org269586b"></a>
+<a id="org9ab1c6c"></a>
 
 # Prefix commands
 
@@ -56,7 +55,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | ]        | Prefix Command |
 
 
-<a id="org418dc1c"></a>
+<a id="org2f2de42"></a>
 
 # Selection
 
@@ -68,7 +67,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | C&#8209;v | evil&#8209;visual&#8209;block   | Blockwise selection         |
 
 
-<a id="orgd606561"></a>
+<a id="org7feac4b"></a>
 
 # Navigation
 
@@ -155,7 +154,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | ] }             | evil&#8209;next&#8209;close&#8209;brace                                                 |                                                                                    |
 
 
-<a id="orgc65feeb"></a>
+<a id="org95b5341"></a>
 
 # Searching / Finding
 
@@ -182,7 +181,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | g C-]    | find&#8209;tag                                                        |
 
 
-<a id="org586c5ff"></a>
+<a id="orgdc5e105"></a>
 
 # Editing
 
@@ -214,7 +213,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | g w      | evil&#8209;fill                             | Fill text.                                                                                                                                                                                                          |
 
 
-<a id="orgc80e532"></a>
+<a id="org8d9c460"></a>
 
 # Navigation
 
@@ -230,7 +229,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | &#60;down&#8209;mouse-1&#62; | evil&#8209;mouse&#8209;drag&#8209;region                         |
 
 
-<a id="org86b1e3e"></a>
+<a id="org6b0f102"></a>
 
 # Window management
 
@@ -285,17 +284,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | C&#8209;w C&#8209;S-l | evil&#8209;window&#8209;move&#8209;far&#8209;right   |                                                                                                                                                                                                                                                |
 
 
-<a id="orgb129dd2"></a>
-
-# Bindings starting with g
-
-| Shortcut | Binding                          |
-|-------- |-------------------------------- |
-| g 8      | what&#8209;cursor&#8209;position |
-| g a      | what&#8209;cursor&#8209;position |
-
-
-<a id="orgd81d16b"></a>
+<a id="orgb053f4a"></a>
 
 # Macro
 
@@ -311,7 +300,7 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | z &#60;right&#62;  | Keyboard Macro                 |
 
 
-<a id="orgf54d111"></a>
+<a id="orgef1a4e7"></a>
 
 # Other
 
@@ -328,3 +317,5 @@ This is a cheat&nbsp;sheet for evil&nbsp;mode. There are so many key&nbsp;bindin
 | :        | evil&#8209;ex                                            |
 | &        | evil&#8209;ex&#8209;repeat&#8209;substitute              |
 | g &      | evil&#8209;ex&#8209;repeat&#8209;global&#8209;substitute |
+| g 8      | what&#8209;cursor&#8209;position                         |
+| g a      | what&#8209;cursor&#8209;position                         |
